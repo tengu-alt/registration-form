@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registration</title>
+</head>
+<body style="background-image: url('eNWDJx.jpg');">
+    <link rel="stylesheet" media="screen" href="style.css">
+    <script src="./index.js" defer="defer"></script>
+    <form target="_blank" action = "./submit.html" class="form">
+        <p class="font">firstName:</p>
+        <p><input type="text" required class="frNameInput input" maxlength="255"></p>
+        <p class="font">LastName:</p>
+        <p><input type="text" required class="lstNameInput input" maxlength="255"></p>
+        <p class="font">eMail:</p>
+        <div class="emailDiv hidden">email is invalid </div>
+        <p><input type="email" required class="emailInput input"></p>
+        <p class="font">password:</p>
+        <div class="passwordDiv"></div>
+        <p><input type="password" required class="passwordInput input" maxlength="65" minlength="8"></p>
+        <button class="font button">Sign up</button>
+    </form>
+    
+</body>
+</html>
